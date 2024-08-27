@@ -106,7 +106,7 @@ sub main {
     }
     
     if ($input =~ /^c$/i) {
-        system('clear');  # Limpa a tela no Linux
+        system('clear');
         return 1;
     }
 
